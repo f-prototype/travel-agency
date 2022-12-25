@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel</title>
+</head>
+<body>
+    <div class="ff">
+        <div class="main-container">
+            <header>
+                <div class="logo">
+                    <div><img src="png/forestLogo.png" alt="logo"></div>
+                    <div>
+                        <p class="bold-header">Forest</p>
+                        <p class="light-header">Туристические походы</p>
+                    </div>
+                </div>
+                <div class="tel">
+                    <p class="bold-header number">8 800 000 00 00</p>
+                    <p class="light-header callNumber">Заказать обратный звонок</p>
+                </div>
+               </header>
+               <div class="content">
+                <div class="main-text">
+                <h2>Окунитесь <br> в мир природы</h2>
+                <h3>за одни выходные, от 1500 руб</h3>
+                <div class="searchBtn"><a>Подобрать тур</a></div>
+                </div>
+                <div class="prev"><img src="png/previos.png" alt="pre"></div>
+                <div class="next"><img src="png/next.png" alt="next"></div>
+               </div>
+               <div class="content2">
+                <div class="content2-container">
+                    <div class="content2-elem">
+                        <img src="png/travel.png" alt="travel">
+                        <h3>Все лучшие туры в одной компании</h3>
+                        <p>Миллионы туров от десятков ведущих туроператоров во всех регионах Росии.</p>
+                    </div>
+                    <div class="content2-elem">
+                        <img src="png/money.png" alt="money">
+                        <h3>Отличные цены</h3>
+                        <p>Мы предлагаем туры по ценам туроператоров, без наценок! Имеем доступ ко всем системам бронирования самых надежных туроператоров, поэтому мы всегда находим самые выгодные предложения.</p>
+                    </div>
+                    <div class="content2-elem">
+                        <img src="png/protect.png" alt="protect">
+                        <h3>Надежность</h3>
+                        <p>Каждую поездку оформляем официально, выдаем чек и никогда не отказываемся от своих обязательств.</p>
+                    </div>
+                </div>
+                <div class="content2-container">
+                    <div class="content2-elem">
+                        <img src="png/pay.png" alt="pay">
+                        <h3>Оплата различными способами</h3>
+                        <p>Вы можете оплатить наши услуги наличными, безналичным расчетом или пластиковой картой.</p>
+                    </div>
+                    <div class="content2-elem">
+                        <img src="png/chat.png" alt="chat">
+                        <h3>Квалифицированная консультация</h3>
+                        <p>Наши консультанты имеют либо высшее туристическое образование, либо многолетний опыт работы. Они постоянно обновляют свои знания в рекламных турах и отлично знают свое дело.​</p>
+                    </div>
+                    <div class="content2-elem">
+                        <img src="png/weekend.png" alt="week">
+                        <h3>Работаем по выходным</h3>
+                        <p>Мы понимаем как тяжело в будний день выделить время на поездку в агентство и поэтому работаем в субботу и воскресенье.</p>
+                    </div>
+                </div>
+               </div>
+               <div class="content3" id="search">
+                <div class="content3-text"><h1>Поиск туров по всем направлениям!</h1></div>
+                <div class="content3-container">
+                    <div class="aside">
+                        <div class="sizon">
+                            <h2>Сезон</h2>
+                            <div class="sizon-elem">
+                                <div class="sizon-input">
+                                    <input type="checkbox" id ="winter" class="custom-checkbox">
+                                    <label for="winter">Зима</label>
+                                </div>
+                                <div class="sizon-input">
+                                    <input type="checkbox" id="spring" class="custom-checkbox">
+                                    <label for="spring">Весна</label>
+                                </div>  
+                            </div>
+                            <div class="sizon-elem">
+                                <div class="sizon-input">
+                                    <input type="checkbox" id ="summer" class="custom-checkbox">
+                                    <label for="summer">Лето</label>
+                                </div>
+                                <div class="sizon-input">
+                                    <input type="checkbox" id = "autumn" class="custom-checkbox">
+                                    <label for="autumn">Осень</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="date range-slider">
+                            <h2>Количество дней </h2>
+                            <input type="range" value="1" min="1" max="14"  class="range-slider__range date-range">
+                            <span class="range-slider__value">1</span>
+                        </div>
+                        <div class="days range-slider">
+                            <h2>Количество персон</h2>
+                            <input type="range" value="1" min="1" max="20"  class="range-slider__range amount">
+                            <span class="range-slider__value">1</span>
+                        </div>
+                        <div class="money range-slider">
+                            <h2>Бюджет</h2>
+                            <input type="range" value="10000" min="10000" max="1500000"  class="range-slider__range amount-money">
+                            <span class="range-slider__value">10000</span>
+                        </div>
+                        <div class="format">
+                            <h2>Формат тура</h2>
+                            <div class="format-item">
+                                <input type="radio"  name="tur" id="solo"
+                                class="custom-radio">
+                                <label for="solo">Индивидуальный тур</label>
+                            </div>
+                            <div class="format-item">
+                                <input type="radio"  name="tur" id="group"
+                                class="custom-radio" checked>
+                                <label for="group">Присоединиться к группе</label>
+                            </div>
+                        </div>
+            
+                        <div class="btn">
+                            <button class="btn-search">Найти тур</button>
+                        </div>
+                    </div>
+                    <div class="bside">
+                        <div class="bside-elem">
+                            <div class="img">
+                                <img src="turImage/baikal-winter.jpg" alt="224">
+                            </div>
+                            <div class="info">
+                                <h3>Байкал. Места силы Бурятии</h3>
+                                <h5>Приглашаем в наш новый тур на зимний Байкал!</h5>
+                                <div>
+                                    <ul>
+                                        <li>- увидите самое большое и глубокое озеро планеты;</li>
+                                        <li>- покатаетесь на УАЗах по льду озера </li>
+                                        <li>- посетите буддийского монастыря</li>
+                                        <li>- поучавствуете в походе на край земли(мыс Хобой): с северных берегов Ольхона Байкал кажется бесконечным и создаётся ощущение, что дальше за горизонтом только вода</li>
+                                        <li>- прогуляетесь по Улан-Удэ</li>
+                                        <li>- посетите минеральных источников</li>
+                                        <li>- подниметесь на пик Любви</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="info2">
+                                <div class="days_night">
+                                    <div class="morning"> 7 Дней</div>
+                                    <div class="night"> 6 Ночи</div>
+                                </div>
+                                <div class="cost">
+                                    <p class="old-cost">от 89000 р.</p>
+                                    <p class="new-cost">от 64000 р.</p>
+                                    <p class="cost-validity">Горячая цена!</p>
+                                </div>
+                                <p class="organization__dates">Ближайшие даты:</p>
+                                <ul class="organization__list-dates"><li><p>5 дек - 11 дек</p></li><li><p>12 дек - 18 дек</p></li></ul>
+                                <a href="#" class="buy">Заказать тур</a>
+                            </div>
+                        </div>
+                        <div class="bside-elem">
+                            <div class="img">
+                                <img src="turImage/baikal-spring.jpg" alt="224">
+                            </div>
+                            <div class="info">
+                                <h3>Волшебный лёд Ольхона</h3>
+                                <h5>Отправляемся исследовать самый таинственный остров Байкала.</h5>
+                                <ul>
+                                    <li>- увидите ледяные фигуры и пещеры, созданные руками самой природы;</li>
+                                    <li>- покорите самый большой природный каток этого мира;</li>
+                                    <li>- исследуете знаменитые локации в зимнем обличии: скала Шаманка, мыс Хобой;</li>
+                                    <li>- познакомитесь с местной культурой: побываете на буддийском острове Огой;</li>
+                                    <li>- встретите живописные рассветы и закаты;</li>
+                                    <li>- попробуете вкуснейшие блюда местной кухни: уха, загудай, чаи на травах;</li>
+                                    <li>- побываете на самом большом острове байкальского архипелага.</li>
+                                </ul>
+                            </div>
+                            <div class="info2">
+                                <div class="days_night">
+                                    <div class="morning"> 5 Дней</div>
+                                    <div class="night"> 4 Ночи</div>
+                                </div>
+                                <div class="cost">
+                                    <p class="old-cost">от 42000 р.</p>
+                                    <p class="new-cost">от 37800 р.</p>
+                                    <p class="cost-validity">Горячая цена!</p>
+                                </div>
+                                <p class="organization__dates">Ближайшие даты:</p>
+                                <ul class="organization__list-dates"><li><p>7 мар - 11 мар</p></li><li><p>12 мар - 16 мар</p></li></ul>
+                                <a href="#" class="buy">Заказать тур</a>
+                            </div>
+                        </div>
+                        <div class="bside-elem">
+                            <div class="img">
+                                <img src="turImage/Baikal-summer.jpg" alt="224">
+                            </div>
+                            <div class="info">
+                                <h3>Волшебная энергия Ольхона</h3>
+                                <h5>У вас есть всего 4 дня для отдыха? Приезжайте в сердце Байкала - на остров Ольхон! </h5>
+                                <ul>
+                                    <li>- Увидите символ Ольхона – скалу «Шаманка».</li>
+                                    <li>- Побываете на мысе Хобой - сакральном и мощном по энергетике месте, с которого открывается одна из самых больших панорам на Байкальские просторы.
+                                    </li>
+                                    <li>- Увидите красивейшие виды на заливы Малого моря и насладитесь вкусом поистине целебной воды из священного источника.
+                                    </li>
+                                    <li>- Насладитесь видами фантастически красивого неба Ольхона. Вас ждут красочные закаты и рассветы.
+                                    </li>
+                                    <li>- Погреетесь на песочных дюнах Сарайского пляжа. Искупаетесь в бодрящем Байкале.</li>
+                                </ul>
+                            </div>
+                            <div class="info2">
+                                <div class="days_night">
+                                    <div class="morning"> 4 Дней</div>
+                                    <div class="night"> 3 Ночи</div>
+                                </div>
+                                <div class="cost">
+                                    <p class="old-cost">от 31000 р.</p>
+                                    <p class="new-cost">от 25000 р.</p>
+                                    <p class="cost-validity">Горячая цена!</p>
+                                </div>
+                                <p class="organization__dates">Ближайшие даты:</p>
+                                <ul class="organization__list-dates"><li><p>18 июнь - 21 июнь</p></li><li><p>22 июнь - 25 июнь</p></li></ul>
+                                <a href="#" class="buy">Заказать тур</a>
+                            </div>
+                        </div>
+                        <div class="bside-elem">
+                            <div class="img">
+                                <img src="turImage/baikal-autumn.jpg" alt="224">
+                            </div>
+                            <div class="info">
+                                <h3>Байкал: краски сибирской осени</h3>
+                                <h5>Осень – не повод закутаться в плед и отказаться от приключений! С нами вы:</h5>
+                                <ul>
+                                    <li>- увидите самое большое и глубокое озеро планеты;</li>
+                                    <li>- пройдёте на катере вдоль красивейших берегов;</li>
+                                    <li>- исследуете памятник инженерной мысли: одну из самых красивых железных дорог мира;</li>
+                                    <li>- побываете на самом большом и сакральном острове Байкала;</li>
+                                    <li>- откроете для себя легендарные мысы: Хобой, Бурхан;</li>
+                                    <li>- познакомитесь с культурой сибиряков в этнопарке “Золотая Орда”;</li>
+                                    <li>- попробуете сочетания байкальской кухни: мясо таёжной дичи, местные виды рыб;</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="info2">
+                                <div class="days_night">
+                                    <div class="morning"> 5 Дней</div>
+                                    <div class="night"> 4 Ночи</div>
+                                </div>
+                                <div class="cost">
+                                    <p class="old-cost">от 49000 р.</p>
+                                    <p class="new-cost">от 39200 р.</p>
+                                    <p class="cost-validity">Горячая цена!</p>
+                                </div>
+                                <p class="organization__dates">Ближайшие даты:</p>
+                                <ul class="organization__list-dates"><li><p>1 окт - 5 окт</p></li><li><p>15 окт - 19 окт</p></li></ul>
+                                <a href="#" class="buy">Заказать тур</a>
+                            </div>
+                        </div>
+                        <div class="bside-sort">
+                        <div class="bside-sort__hint">Сортировать по:</div>
+                        <div class="bside-sort__buttons">
+                            <button class="sorting sorting-popular sorting--active">По популярности</button>
+                            <button class="sorting sorting-min">Дешевле</button>
+                            <button class="sorting sorting-max">Дороже</button>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+               </div>
+        </div>
+       <div class="form">
+        <div class="buy-tour">
+            <div class="buy-tour-text">
+                <h3>Набор в группу</h3>
+            </div>
+            <div class="priseAndDays">
+                <div class="priseForm">
+                    <div class="moneyForm"> от 26900 р.</div>
+                    <div class="companyForm">за 1 чел.</div>
+                </div>
+                <div class="daysForm">
+                     <div class=" day-container"><img src="png/sunny.png" alt=""><div class="dayForm">5 дней</div></div>
+                     <div class="night-container">
+                        <img src="png/moon1.png" alt=""><div class="nightForm">4 ночей</div>
+                     </div>
+                </div>
+            </div>
+            <div class="input-text">
+                <div class="input-field">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="input-field">
+                    <input type="tel" placeholder="Ваш телефон" maxlength="20">
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Ваш email">
+                </div>
+                <div class="textarea-field">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ваши комментарии"></textarea>
+                </div>                
+            </div>
+        <button class="btnForm">Отправить заявку</button>
+        <div class="notice">Нажимая на кнопку выше вы соглашаетесь c<br><a href="#">политикой конфиденциальности</a></div>
+        <div class="closeForm"><img src="png/closeForm.svg" alt="close"></div>
+        </div>
+       </div>
+    </div>
+   <script src="js/Ture.js"></script>
+   <script src="js/fetchTest"></script>
+   <script src="js/CreateElement.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
+
+    
